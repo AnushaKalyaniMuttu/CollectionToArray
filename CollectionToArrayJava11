@@ -1,0 +1,3 @@
+List sampleList = Arrays.asList("Java", "Kotlin");
+String[] sampleArray = sampleList.toArray(String[]::new);
+assertThat(sampleArray).containsExactly("Java", "Kotlin");
